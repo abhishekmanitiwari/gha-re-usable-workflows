@@ -1,9 +1,9 @@
 name: Reusable Workflow
 on:
     workflow_call:
-  jobs:
-    greeting:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Print Greeting
-              run: echo "Hello from the reusable workflow!"
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello from the reusable workflow!"
